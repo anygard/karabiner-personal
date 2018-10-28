@@ -1,0 +1,42 @@
+{
+  "description": "Personal rules (@anygard)",
+  "manipulators": [
+    {
+      "description": "Switch from US input source to Swedish while caps lock is held down",
+      "from": {
+        "key_code": "caps_lock",
+        "modifiers": {
+          "mandatory": [],
+          "optional": [
+            "any"
+          ]
+        }
+      },
+      "to_if_held_down": [
+        {
+          "select_input_source": {
+            "input_source_id": "com.apple.keylayout.Swedish-Pro"
+          }
+        }
+      ],
+      "to_after_key_up": [
+        {
+          "select_input_source": {
+            "input_source_id": "com.apple.keylayout.USExtended"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "type": "input_source_if",
+          "input_sources": [
+            {
+              "input_source_id": "com.apple.keylayout.USExtended"
+            }
+          ]
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}
