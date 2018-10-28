@@ -1,15 +1,15 @@
 README
 ======
 
-This is "Complex Modifications" rules for [[Karabiner-Elements][https://pqrs.org/osx/karabiner/]]
+This is "Complex Modifications" rules for [Karabiner-Elements](https://pqrs.org/osx/karabiner/)
 
 Usage
 -----
 
 Hopefully this rule can be added to the official rules
-[[list][https://pqrs.org/osx/karabiner/complex_modifications/]] otherwise you
+[list](https://pqrs.org/osx/karabiner/complex_modifications/) otherwise you
 will have to insert the contents of the karabiner-anygard.json file into your
-karabiner.json [[see][https://pqrs.org/osx/karabiner/json.html]] for
+karabiner.json [see](https://pqrs.org/osx/karabiner/json.html) for
 information abut karabiner.json. In short you have to insert the
 karabiner-anygard.json content into the rules element.
 
